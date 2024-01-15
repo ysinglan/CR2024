@@ -2,33 +2,33 @@
 
 ## Informations personnelles
 - **Nom et Prénom:** [SINGLAN Yohann]
-- **Version:** [V2]
+- **Version:** [V1]
 - **Date:** [15/01/2024]
 
 ## Tests Unitaires
 
 ### Fonction decomposer()
-- Tâches réalisées: [Décrivez les tâches effectuées dans cette fonction]
+- Tâches réalisées: [Essai avec 2 suites de chiffres : 123 et 999]
 - Résultat des tests: Aucune erreur détectée.
 
 ### Fonction divisible()
-- Tâches réalisées: [Décrivez les tâches effectuées dans cette fonction]
+- Tâches réalisées: [Essai avec 81 & 100]
 - Résultat des tests: Aucune erreur détectée.
 
 ### Fonction somme()
-- Tâches réalisées: [Décrivez les tâches effectuées dans cette fonction]
-- Résultat des tests: Aucune erreur détectée.
+- Tâches réalisées: [Essai avec 123 ; 5 5 10 ; 000 ]
+- Résultat des tests: Erreur sur cette fonction.
 
 ### Version de Turing
-- Tâches réalisées: [Décrivez les tâches effectuées dans la version de Turing]
-- Résultat des tests: Aucune erreur détectée.
+- Tâches réalisées: [Test unitaire effectué sur les différentes fonctions.]
+- Résultat des tests: Erreur au niveau de la fonction "somme".
 
 ### Version de Steve
-- Tâches réalisées: [Décrivez les tâches effectuées dans la version de Steve]
-- Résultat des tests: Aucune erreur détectée.
+- Tâches réalisées: [Test unitaire effectué sur les différentes fonctions.]
+- Résultat des tests: Erreur au niveau de la fonction "somme".
 
 ## Couverture de Test
-- **Couverture Totale:** [Pourcentage de couverture des tests]
+- **Couverture Totale:** [75%]
 
 
 **Essai des version de Turing & Steve :**
