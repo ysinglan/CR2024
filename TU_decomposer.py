@@ -9,7 +9,7 @@ class TestFunctions(unittest.TestCase):
         assert decomposer_steve(999) == (9, 9, 9)
         pass
     
-    def test_composer_turing(self):
+    def test_decomposer_turing(self):
         # Tests unitaires pour decomposer() de turing
         assert decomposer_turing(123) == (1, 2, 3)
         assert decomposer_turing(999) == (9, 9, 9)

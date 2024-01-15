@@ -8,7 +8,7 @@ def decomposer_turing(n):
         rep=(c,d,u)
     return rep
 
-def somme(c,d,u):
+def somme_turing(c,d,u):
     if c>9 or c<0 or d>9 or c<0 or u>9 or u<0: 
         rep=None
     else:
@@ -24,7 +24,7 @@ def devine():
     trouve=False
     while code <=999 and not trouve:
         (c,d,u)=decomposer_turing(code)
-        if somme(c,d,u) and divisible_turing(code):
+        if somme_turing(c,d,u) and divisible_turing(code):
             trouve=True
         else: code=code+1
     return code

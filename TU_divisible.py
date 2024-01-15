@@ -9,7 +9,7 @@ class TestFunctions(unittest.TestCase):
         assert divisible_steve(100) == False
         pass
     
-    def test_composer_turing(self):
+    def test_divisible_turing(self):
         # Tests unitaires pour divisible() de turing
         assert divisible_turing(81) == True
         assert divisible_turing(100) == False

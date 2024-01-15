@@ -5,7 +5,7 @@ def decomposer_steve(n):
     rep=(c,d,u)
     return rep
 
-def somme(d,c,u):
+def somme_steve(d,c,u):
     return c+u==d
 
 def divisible_steve(n):
@@ -16,7 +16,7 @@ def devine():
     trouve=False
     while code <=999 and not trouve:
         (c,d,u)=decomposer_steve(code)
-        if somme(c,d,u) and divisible_steve(code):
+        if somme_steve(c,d,u) and divisible_steve(code):
             trouve=True
         else: code=code+1
     return code
