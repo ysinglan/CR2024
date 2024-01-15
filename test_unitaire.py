@@ -1,6 +1,6 @@
 # test_functions.py
 import unittest
-from steve import decomposer, divisible, somme
+from turing import decomposer, divisible, somme
 
 class TestFunctions(unittest.TestCase):
 

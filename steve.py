@@ -1,4 +1,4 @@
-def decomposer(n):
+def decomposer_steve(n):
     u=n%10
     d=int(n/10)%10
     c=int(n/100)%10
@@ -15,7 +15,7 @@ def devine():
     code=100
     trouve=False
     while code <=999 and not trouve:
-        (c,d,u)=decomposer(code)
+        (c,d,u)=decomposer_steve(code)
         if somme(c,d,u) and divisible(code):
             trouve=True
         else: code=code+1
